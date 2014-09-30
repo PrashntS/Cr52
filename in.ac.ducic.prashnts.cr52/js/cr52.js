@@ -39,6 +39,30 @@ var Cr52 = {
     refreshed: 0,
 
     /*!
+     * Contains the Defined data sources, and the Detection Mechanism.
+     * @type {Object}
+     */
+    dataSet: {
+        
+        /*!
+         * Detects presence of Facebook Login on the present page.
+         * Performs a Click event if specified a flag.
+         * @return {Mixed} The click status, or the data returned.
+         */
+        facebook: function() {
+            //todo
+        },
+
+        /*!
+         * Returns the Object of data, retrieved through all the dataSet methods.
+         * @return {Object} DataSet.
+         */
+        get: function() {
+            //todo
+        }
+    },
+
+    /*!
      * The HTML hook object closure. Responsible for page manipulation, including addition of new
      * hook, appending the hook, and detecting presence of it.
      * @type {Object}
