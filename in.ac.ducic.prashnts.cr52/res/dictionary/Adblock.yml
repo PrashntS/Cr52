@@ -7369,8 +7369,8 @@ _youtube_small.
 ||buzzfeed.com^$third-party
 ||cdn.wibiya.com^$script
 ||centup.org^$third-party
-||buttfront.net/*/facebook.png
-||buttfront.net/*/twitter.png
+||cloudfront.net/*/facebook.png
+||cloudfront.net/*/twitter.png
 ||conversionsbox.com^$third-party
 ||crowdynews.com^$third-party
 ||del.icio.us/feeds/js/$third-party,domain=~delicious.com
